@@ -1,10 +1,10 @@
-#Clean API results for depositing into database
+#' Converts the date column to POSIXct datetime format.
+#'
+#' @param dataset A dataframe.
+#' @param y A column number of the dataframe.
+#' @return The date column in proper POSIXct format.
 
 #Date Conversion
-
-# API Date results come in the form of: /Date(1000000000000)/
-# This function strips the characters from the numbers,
-# converts to numeric, and converts the time stamp to datetimes
 
 date_convert <- function(dataset=data,col=colNumber,name=stringname) {
     a <- dataset
