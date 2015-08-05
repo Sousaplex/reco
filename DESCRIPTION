@@ -8,8 +8,9 @@ Description: This package helps make calls to the Eco Service API, and parses th
     that it can be refactored into a POSTGRESql database.
 License: MIT
 LazyData: TRUE
-Imports:
-    httr
-    jsonlite
-    RSQLite
-    yaml
+Depends: R (>= 3.1.0)
+Import:
+    httr (>= 0.6.1)
+    jsonlite (>= 0.9.16)
+    RSQLite (>= 1.0.0)
+    yaml (>= 2.1.13)
