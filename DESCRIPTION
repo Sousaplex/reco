@@ -8,3 +8,8 @@ Description: This package helps make calls to the Eco Service API, and parses th
     that it can be refactored into a POSTGRESql database.
 License: MIT
 LazyData: TRUE
+Imports:
+    httr
+    jsonlite
+    RSQLite
+    yaml
