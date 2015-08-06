@@ -1,7 +1,7 @@
 #' Converts the date column to POSIXct datetime format.
 #'
 #' @param dataset A dataframe.
-#' @param y A column number of the dataframe.
+#' @param column_number A column number of the dataframe.
 #' @return The date column in proper POSIXct format.
 
 #Date Conversion
