@@ -14,3 +14,4 @@ Import:
     jsonlite (>= 0.9.16)
     RSQLite (>= 1.0.0)
     yaml (>= 2.1.13)
+    DBI (>= 0.3.1)
