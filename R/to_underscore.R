@@ -3,7 +3,7 @@
 #' @param string A string that needs to be converted to underscore notation.
 #' @return The date column in proper POSIXct format.
 
-#Date Conversion
+#convert variable names to underscore format
 
 to_underscore <- function(x) {
     x2 <- gsub("([A-Za-z])([A-Z])([a-z])", "\\1_\\2\\3", x)
